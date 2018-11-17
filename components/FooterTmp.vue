@@ -1,6 +1,27 @@
 <template>
   <footer>
     <div class='footer'>
+      <div class='footer-service-container'>
+        <div class='footer-service'>
+          <a href=''>
+            <img src='../assets/images/logo/footer_tabelog_matome.gif'><br>
+            <span class='footer-service-text'>グルメキュレーションサイト</span>
+          </a>
+        </div>
+        <div class='footer-service'>
+          <a href=''>
+            <img src='../assets/images/logo/footer_tabelog_magazine.gif'><br>
+            <span class='footer-service-text'>毎日の外食が楽しくなるグルメ情報</span>
+          </a>
+        </div>
+        <div class='footer-service'>
+          <a href=''>
+            <img src='../assets/images/logo/logo_reviewer_ranking.svg' width='158' height='24'><br>
+            <span class='footer-service-text'>全国で活躍するレビュアー</span>
+          </a>
+        </div>
+      </div>
+
       <div class='footer-nav-container'>
         <div class='footer-nav'>
           <ul>
@@ -50,6 +71,39 @@
 <style lang='scss' scoped>
 .footer {
   width: 100%;
+
+  .footer-service-container {
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+    justify-content: center;
+
+      a {
+        display: block;
+        text-decoration: none;
+      }
+
+    .footer-service {
+      width: 326px;
+      text-align: center;
+      border-right: 1px solid #eeece4;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      .footer-service-text {
+        color: #959599;
+        font-size: 10px;
+
+        &:hover {
+          color: #959599;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 
   .footer-nav-container {
     background: #faf8f5;
