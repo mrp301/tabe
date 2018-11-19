@@ -7,3 +7,19 @@ body {
     line-height: 1.4;
   }
 }
+
+a {
+  color: #06c;
+  text-decoration: none;
+
+  &:hover {
+    color: #ff9600;
+    text-decoration: underline;
+  }
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}

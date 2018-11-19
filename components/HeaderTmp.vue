@@ -39,15 +39,6 @@
       & > * {
         display: inline-block;
         padding: 0 8px;
-        color: #06c;
-         a {
-           text-decoration: none;
-
-           &:hover {
-             color: #ff9600;
-             text-decoration: underline;
-           }
-         }
 
         &:not(:last-child) {
           border-right: solid 1px #eeece4;

@@ -120,14 +120,7 @@
           line-height: 2;
 
           a {
-            color: #06c;
-            text-decoration: none;
             font-size: 10px;
-
-            &:hover {
-              color: #ff9600;
-              text-decoration: underline;
-            }
           }
 
           span {
@@ -157,16 +150,6 @@
         & > * {
           display: inline-block;
           padding: 0 8px;
-          color: #06c;
-
-           a {
-             text-decoration: none;
-
-             &:hover {
-               color: #ff9600;
-               text-decoration: underline;
-             }
-           }
 
           &:not(:last-child) {
             border-right: solid 1px #eeece4;
