@@ -3,6 +3,11 @@
     <div class='layout clearfix'>
       <div class='layout-main'>
         <p>コンテンツ</p>
+        <ul>
+          <li>
+            <ShopList></ShopList>
+          </li>
+        </ul>
         <PagiNation></PagiNation>
       </div>
       <div class='layout-side'>サイドバー</div>
@@ -12,10 +17,12 @@
 
 <script>
 import PagiNation from '~/components/PagiNation'
+import ShopList from '~/components/ShopList'
 
 export default {
   components: {
-    PagiNation
+    PagiNation,
+    ShopList
   }
 }
 </script>
