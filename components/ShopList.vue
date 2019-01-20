@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div>
+      1~20件を表示 / 全4200件
+    </div>
     <ul>
       <li class='shopList'>
         <div class='l-flex'>
